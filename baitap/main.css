@@ -1,0 +1,29 @@
+
+body{
+    text-align: center;
+    
+}
+#add{
+    background-color: red;
+    padding: 20px;
+    font-size: 30px;
+}
+#subtraction{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.an{
+    opacity: 0;
+}
+.hien{
+    opacity: 1;
+}
+.do{
+    color: red;
+}
+.den{
+    color: black;
+}

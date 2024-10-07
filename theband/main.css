@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    scroll-behavior: smooth;
+
+}
+
+body {
+    position: relative;
+    
+}
+
+.header {
+
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: auto;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    align-items: center;
+
+
+}
+
+.header_nav {
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    font-size: 15px;
+
+}
+
+
+nav {
+    padding: 11px 18px;
+
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.header_nav nav:hover a {
+    color: black;
+
+}
+
+.header_nav nav:hover {
+    background-color: silver;
+    color: black;
+
+    cursor: pointer;
+}
+
+
+
+.header_icon nav:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+.sub {
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 341px;
+    display: none;
+}
+
+.more:hover .sub {
+    display: block;
+    color: black;
+    background-color: white;
+}
+
+.panel {
+    position: relative;
+
+
+}
+
+.img {
+    display: flex;
+    align-items: center;
+
+}
+
+.img img {
+    position: relative;
+    z-index: -1;
+    width: 100%
+}
+
+.slogan {
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+
+    color: #fff;
+
+}
+
+.slogan h2 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center; */
+    margin-bottom: 20px;
+
+
+}
+
+/*          THE BAND        */
+.biography {
+
+    padding: 80px 200px;
+    padding-bottom: 100px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.the_band h2 {
+    letter-spacing: 3px;
+    margin: 10px;
+
+}
+
+.the_band p {
+    justify-content: center;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.img_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+
+
+}
+
+.img_name h3 {
+    margin-bottom: 30px;
+}
+
+.img_name img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.img_name1 {
+    padding: 20px;
+
+}
+
+/*       TOUR DATES      */
+.tour_dates {
+    color: white;
+    height: 880px;
+    padding: 80px 200px;
+    background-color: black;
+
+}
+
+.tour {
+
+    text-align: center;
+}
+
+.tour h2 {
+
+    margin: 20px;
+    letter-spacing: 3px;
+}
+
+.tour i {
+    margin: 20px;
+}
+
+.box_quantity {
+    margin-top: 20px;
+    color: black;
+    background-color: #fff;
+}
+
+.box_quantity p {
+    padding: 10px;
+    border-bottom: 1px solid silver;
+}
+
+.box_quantity .sold {
+    text-align: center;
+    background-color: #f44336;
+    color: white;
+    padding: 4px 4px;
+    margin-left: 10px;
+
+}
+
+.box_quantity .total {
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 400px;
+    padding: 4px 10px;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 30px;
+
+}
+
+.buy_ticket {
+    background-color: #fff;
+    width: 30%;
+
+
+}
+
+.buy_ticket img {
+    width: 100%;
+
+}
+
+.profile_ticket {
+    padding: 16px;
+    color: black;
+}
+
+.profile_ticket h3 {
+    margin-bottom: 10px;
+}
+
+.profile_ticket p {
+    margin-bottom: 10px;
+}
+
+.profile_ticket button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.profile_ticket button:hover {
+    background-color: silver;
+    color: black;
+
+}
+
+.buy img:hover {
+    opacity: 0.6;
+}
+
+.contact {
+    color: black;
+    padding: 80px 200px;
+
+
+}
+
+.contact_tiltle {
+
+    align-items: center;
+    text-align: center;
+}
+
+.contact_tiltle h2 {
+    letter-spacing: 5px;
+}
+
+.contact_input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.contact_input .contact_no_input {
+    width: 100%;
+}
+
+.contact_no_input i {
+    display: inline-block;
+    margin: 1px 0;
+}
+
+.half {
+
+    display: flex;
+    width: 50%;
+}
+
+.half_left {
+    margin-right: 10px;
+
+}
+
+.half1 input {
+
+    padding: 8px;
+    border: 1px solid;
+
+}
+
+.full input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid;
+
+}
+
+.submit {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.submit :hover {
+    background-color: silver;
+    color: black;
+}
+
+.map img {
+
+    width: 100%
+}
+
+.footer {
+    padding: 60px 200px 80px;
+    text-align: center;
+
+    color: black;
+}
+
+.footer i {
+    letter-spacing: 3px;
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+.footer i:hover {
+    color: lightgrey;
+    opacity: 0.6;
+}
+
+.footer p {
+    font-size: 15px;
+    cursor: pointer;
+}

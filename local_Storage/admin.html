@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./admin.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Nhập sản phẩm</h2>
+    <input type="text" id="product_name" placeholder="tên sản phẩm">
+    <input id="product_quantity" type="number" placeholder="số lượng">
+    <input id="product_price" type="number" placeholder="Giá">
+    <input type="url" placeholder="image" id="imgsrc">
+    <button id="product_submit" >submit</button>
+    <!-- <button id="confirm"  >confirm</button> -->
+    <p id="message"></p>
+    <h2>Sản Phẩm</h2>
+    <div id="sort">
+        <button id="sort_name">Tên</button>
+        <button id="sort_price">Giá</button>
+        <button id="sort_quantity">Số lượng</button>
+
+    </div>
+    <div id="product_list">
+    </div>
+   
+    <script src="./admin.js"></script>
+</body>
+</html>
+
+
+<!-- trang admin thêm sản phẩm,sản phẩm gồm: hình ảnh, tên sản phẩm, giá, số lượng -->

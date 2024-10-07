@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #00853e, #50c878);
+
+}
+
+.card_profile {
+    height: 500px;
+    width: 400px;
+    background-color: #242628;
+    text-align: center;
+    border-radius: 10%;
+    overflow: hidden;
+    position: relative;
+
+}
+img:hover .card_profile{
+    overflow: hidden;
+}
+
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.img img {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #f2726a;
+    border-radius: 80%;
+    transition: 1s;
+    margin-top: 30px;
+}
+
+img:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    border: none;
+    margin-top: 0px;
+
+}
+
+.my {
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+
+
+
+}
+
+.my h2 {
+    margin-top: 10px;
+    color: white;
+
+}
+
+.my p {
+    margin-top: 10px;
+    color: #f2726a;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.social a {
+    color: white;
+}
+
+.social a:hover {
+    color: #f2726a;
+    transition: 0.5s;
+}
+
+.button_click {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+    outline: 1px solid #813e3e;
+    border: none;
+    background-color: #242628;
+    border-radius: 20px;
+    border-color: #f2726a;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover .button_click {
+    background-color: #f2726a;
+    transition: 0.75s;
+}
+
+.for_me {
+ 
+}
+
+.card_profile:hover .for_me {
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0.3;
+}
