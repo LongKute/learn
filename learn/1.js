@@ -1,15 +1,24 @@
-
 const user = {
-  name: 'duoc',
-  age: 24,
-  ability: ['coding']
+  ten: 'tung',
+  tuoi: 20,
+  banBe:['vy', 'tung', 'tuan'],
+  diaChi:{
+      so_nha: '22LehongPhong',
+      tinh: 'HCM',
+      quan:'Q1'
+    }
+  }
+
+function friends(a) {
+  const newa_Friend = [a.banBe]
+  console.log(a.banBe)
+
+  console.log(a.banBe.slice(-1));
+  console.log([a.diaChi])
+  
+  
+  
+  
 }
 
-
-
-function test() {
-    let newa =[{...user}] 
-    return newa;
-}
-
-console.log(test());
+friends(user)
