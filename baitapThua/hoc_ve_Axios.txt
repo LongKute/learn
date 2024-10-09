@@ -1,0 +1,44 @@
+Để học về Axios một cách hiệu quả, bạn nên tìm hiểu những khía cạnh sau:
+
+1. Cài đặt và thiết lập
+Cách cài đặt Axios qua npm hoặc sử dụng CDN.
+Cấu hình cơ bản và cách nhập thư viện vào dự án của bạn.
+
+2. Cách gửi yêu cầu HTTP
+GET: Lấy dữ liệu từ API.
+POST: Gửi dữ liệu đến API.
+PUT: Cập nhật dữ liệu trên server.
+DELETE: Xóa dữ liệu từ server.
+
+3. Xử lý phản hồi
+Hiểu cấu trúc của đối tượng phản hồi (response).
+Truy cập các thuộc tính như data, status, statusText, headers.
+
+4. Xử lý lỗi
+Cách bắt lỗi với .catch().
+Sự khác nhau giữa lỗi do yêu cầu không thành công và lỗi do mạng.
+
+5. Cấu hình yêu cầu
+Thêm headers tùy chỉnh (như Authorization).
+Thiết lập timeout.
+Cách sử dụng các tùy chọn khác như params, data, và responseType.
+
+6. Hủy yêu cầu
+Sử dụng CancelToken để hủy yêu cầu đang chạy.
+
+7. Axios Interceptors
+Cách sử dụng interceptors để xử lý yêu cầu và phản hồi trước khi chúng được gửi hoặc nhận.
+Sử dụng để thêm headers tự động, quản lý token, hoặc ghi log.
+
+8. Kết hợp với async/await
+Cách sử dụng Axios với cú pháp async/await để viết mã dễ đọc hơn.
+
+9. Tương tác với API thực
+Thực hành gửi và nhận dữ liệu từ một API công khai (như JSONPlaceholder).
+
+10. Tài liệu tham khảo
+Đọc tài liệu chính thức của Axios để nắm rõ tất cả các tính năng và cách sử dụng.
+Tài nguyên hữu ích
+Video hướng dẫn: Tìm kiếm các video trên YouTube về Axios để có cái nhìn trực quan.
+Dự án thực tế: Thực hiện một dự án nhỏ như xây dựng một ứng dụng To-Do hoặc Blog sử dụng Axios để quản lý dữ liệu từ API.
+Khi bạn đã nắm rõ các điểm này, bạn sẽ có nền tảng vững chắc để làm việc với Axios trong các ứng dụng của mình! Nếu bạn cần thêm thông tin hay ví dụ cụ thể về bất kỳ phần nào, cứ hỏi nhé!
