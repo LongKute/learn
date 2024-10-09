@@ -4,7 +4,6 @@ function recursive(a) {
   if (a == 0) {
     return 1;
   }
-  console.log(recursive(a - 1));
   return a * recursive(a - 1);
 }
-console.log(recursive(2));
+console.log(recursive(5));

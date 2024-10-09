@@ -56,7 +56,8 @@ Nâng cao hơn:
 39. Sử dụng `setTimeout()` để thực hiện một công việc sau 5 giây.
 40. Tạo một `EventListener` để xử lý sự kiện nhấp chuột vào một nút HTML.
 
-Làm Cho có lệ :)):
+Làm Cho có lệ:
+
 41. Tạo một hàm tính tổng các số nguyên tố nhỏ hơn một số n cho trước.
 42. Tạo một hàm đếm số ký tự nguyên âm trong một chuỗi.
 43. Tạo một chương trình mô phỏng trò chơi đoán số (người dùng nhập số và máy đoán).
@@ -67,3 +68,7 @@ Làm Cho có lệ :)):
 48. Tạo một hàm tính toán giá trị biểu thức toán học từ một chuỗi (VD: "5+3*2").
 49. Tạo một hàm sử dụng `JSON.stringify()` và `JSON.parse()` để sao chép một đối tượng.
 50. Tạo một hàm kiểm tra xem hai chuỗi có phải là anagram của nhau hay không.
+
+
+
+// xem lại bài tập 8, 15, 20, 21, 24, xem kĩ lại về reduce
