@@ -41,7 +41,8 @@ Nâng cao:
 26. Viết một hàm nhận vào một mảng số và trả về phần tử nhỏ nhất trong mảng.
 27. Tạo một hàm nhận vào một chuỗi và trả về chuỗi với các ký tự đã được đảo ngược.
 28. Tạo một `Promise` để mô phỏng quá trình tải dữ liệu và trả về thành công sau 2 giây.
-29. Viết một chương trình đọc dữ liệu từ một API sử dụng `fetch` và hiển thị kết quả.
+29. Viết một chương trình đọc dữ liệu từ một API sử dụng `fetch` và hiển thị kết quả.  
+(node-fetch chưa giải quyết xong)
 30. Sử dụng `async`/`await` để gọi một API và xử lý dữ liệu trả về.
 
 Nâng cao hơn:
