@@ -72,4 +72,4 @@ Làm Cho có lệ:
 
 
 
-// xem lại bài tập 8, 15, 20, 21, 24, xem kĩ lại về reduce
+// xem lại bài tập 8, 15, 20, 21, 24, xem kĩ lại về reduce, 38 (chưa xong)
