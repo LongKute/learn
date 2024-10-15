@@ -1,4 +1,6 @@
 // 28. Tạo một `Promise` để mô phỏng quá trình tải dữ liệu và trả về thành công sau 2 giây.
+
+// Promise có 3 trạng thái: Hoàn Thành, Thất bại, đang xử lí (dùng then, catch, finally)
 const mypromise = new Promise((complete, not_complete) => {
   let succes = false;
   if (succes) {

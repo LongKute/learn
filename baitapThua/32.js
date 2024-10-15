@@ -3,5 +3,3 @@
 const arr = [2, 3, 7, 4, 6, 5, 9, 10];
 
 console.log(arr.every((x) => x > 0));
-
-

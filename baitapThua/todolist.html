@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <div class = container>
+    <div class=container>
         <h2>To-Do list</h2>
         <input type="text" placeholder="write anything" id="inputTask">
-        <button type="button" id="addTask" >Add </button>
-        <button type="button" id="fixTask">Fix</button>
-        <button type="button" id="deleteTask">Delete</button>
+        <button onclick="addTodo()" type="button" id="addTask">Add </button>
+        <!-- <button type="button" onclick="editTodo()" id="fixTask">Edit</button>
+        <button type="button" id="deleteTask">Delete</button> -->
         <div id="todoList">
-            <!-- <li></li> -->
+            <ul>
+
+            </ul>
         </div>
 
     </div>
-    
-    <script src="35.js"></script>
+    <script src="35_Long.js"></script>
+    <!-- <script src="35_Thua.js"></script> -->
+
 </body>
-</html> 
+
+</html>

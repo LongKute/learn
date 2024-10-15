@@ -5,8 +5,7 @@ function sum(a) {
   let total = 0;
   for (let i = 0; i <= a; i++) {
     total += i;
-    console.log(total);
   }
-  console.log(total);
+  return total;
 }
 console.log(sum(b));
