@@ -71,5 +71,3 @@ Làm Cho có lệ:
 50. Tạo một hàm kiểm tra xem hai chuỗi có phải là anagram của nhau hay không.
 
 
-
-// xem lại bài tập 8, 15, 20, 21, 24, xem kĩ lại về reduce, 38 (chưa xong)
